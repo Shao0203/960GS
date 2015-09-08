@@ -40,7 +40,7 @@ h2 {
 ---------------------------------------------------------------------------------*/
 #header {
 	height: 391px;
-	background: url(../images/header-bg.jpg) no-repeat center 0;
+	background: url(../img/header-bg.jpg) no-repeat center 0;
 }
 .logo {
 	margin: 20px 0 20px 15px;
@@ -73,7 +73,7 @@ h2 {
 /* siderbar css
 ---------------------------------------------------------------------------------*/
 #siderbar li, #footer li {
-	background:url(../images/dot.png) no-repeat left center;
+	background:url(../img/dot.png) no-repeat left center;
 	list-style-type: none;
 	padding-left: 20px;
 	margin-left: 10px;
