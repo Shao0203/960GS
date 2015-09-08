@@ -6,9 +6,9 @@ The 960 Grid System is an effort to streamline web development workflow by provi
 There are two variants: 12 and 16 columns, which can be used separately or in tandem.
 # -----------------------------------------
 
-12 columns: 12*60 + 11*20 + 20 = 960 | 
-16 columns: 16*40 + 15*20 + 20 = 960
+12 columns: 12x60 + 11x20 + 20 = 960 | 
+16 columns: 16x40 + 15x20 + 20 = 960
 
 useful class:
-.alpha | .omega
+.alpha | .omega ; 
 .pull_x | .push_x
