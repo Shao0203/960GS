@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.container_12 {
+	background-color: #000;
+}
+header, section, aside, footer {
+	background-color: #708ff1;
+	height:300px;
+	margin-bottom: 20px;
+}
+section .grid_2 {
+	height:150px;
+	background-color: #fff;
+}
