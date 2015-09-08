@@ -7,6 +7,13 @@ a {
 	text-decoration: none;
 	color: #1facee;
 }
+h2 {
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #ccc;
+}
+#header, #mainbody, #siderbar {
+	margin-bottom: 20px;
+}
 /*toolbar css
 ---------------------------------------------------------------------------------*/
 #toolbar {
@@ -31,12 +38,12 @@ a {
 
 /* header css
 ---------------------------------------------------------------------------------*/
-header {
+#header {
 	height: 391px;
-	background: url(../images/header-bg.jpg) no-repeat;
+	background: url(../images/header-bg.jpg) no-repeat center 0;
 }
 .logo {
-	margin: 20px 0 20px 5px;
+	margin: 20px 0 20px 15px;
 }
 .navigation li {
 	list-style-type: none;
@@ -52,5 +59,31 @@ header {
 	background-color: #4ac5ff;
 }
 
-/* header css
+/* mainbody css
 ---------------------------------------------------------------------------------*/
+.pic {
+	margin-bottom: 10px;
+}
+.block {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* siderbar css
+---------------------------------------------------------------------------------*/
+#siderbar li, #footer li {
+	background:url(../images/dot.png) no-repeat left center;
+	list-style-type: none;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+/* footer css
+---------------------------------------------------------------------------------*/
+#footer {
+	border-top: 2px solid #dbdbdb;
+	padding-top: 20;
+}
+#footer a {
+	color: #999;
+}
