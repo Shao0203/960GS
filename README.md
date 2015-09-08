@@ -10,5 +10,6 @@ There are two variants: 12 and 16 columns, which can be used separately or in ta
 16 columns: 16x40 + 15x20 + 20 = 960
 
 useful class:
+.container_12 & .container_16 | .grid_x ;
 .alpha | .omega ; 
-.pull_x | .push_x
+.pull_x | .push_x ;
